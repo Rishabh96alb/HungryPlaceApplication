@@ -1,0 +1,28 @@
+<div class="container">
+    <img src="{{food.imageUrl}}" alt="food images">
+
+<div class="details">
+    <div class="name">
+        <strong>{{food.name}} </strong>
+    </div>
+
+
+<div class="rating">
+    <div class="star">
+       {{food.star}}
+    </div>
+</div>
+
+<div class="money">
+    <div class="price">
+        <strong>
+        {{food.price|currency}} </strong>
+    </div>
+</div>
+
+
+<div>
+    <button (click)="addtoCart()">Add to Cart</button>
+</div>
+</div>
+</div>

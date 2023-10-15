@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    margin-top: 6rem;
+}
+
+.details{
+    width: 25rem;
+}
+
+.input-container{
+    margin: auto;
+    padding: auto;
+}
+
+.input-containers{
+    margin-top: 5px;
+    
+}
+.details .btn{
+    
+    background: black;
+    color: white;
+}

@@ -1,0 +1,27 @@
+.menu{
+    margin-top: 20px;
+    /* margin-left: 300px; */
+    width: 250px;
+    position: relative; left: 350px;
+
+    
+}
+
+ul li {
+
+position:absolute; 
+top:30px; 
+right: 10px;
+list-style-type: none;
+}
+
+ul li a{
+    background-color: black;
+    color: white;
+}
+
+.search-icon{
+    position: absolute;
+    right: 600px;
+    top: 40px;
+}

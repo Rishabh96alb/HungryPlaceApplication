@@ -1,0 +1,24 @@
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    left: 20%;
+}
+
+div input{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 200px;
+    right: 20%;
+}
+
+button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 70px;
+    margin-left: 5px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
